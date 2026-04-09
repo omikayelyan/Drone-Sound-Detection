@@ -79,9 +79,6 @@ drone_sound_detection/
 │   ├── drone/           # Target class: Drone audio .wav files
 │   └── non_drone/       # Background class: Non-drone .wav files
 │
-├── notebooks/
-│   └── drone_detection_notebook.ipynb   # Step-by-step interactive walkthrough
-│
 ├── src/
 │   ├── data_loader.py       
 │   ├── feature_extraction.py 
@@ -128,12 +125,7 @@ pip install -r requirements.txt
 2. Unzip the contents into the `data/` folder, ensuring all drone `.wav` files are directly inside `data/drone/` and background noises are inside `data/non_drone/`.
 
 ### How to run the project
-You can run the full interactive notebook via Jupyter:
-```bash
-jupyter notebook notebooks/drone_detection_notebook.ipynb
-```
-
-Alternatively, you can run the pipeline sequentially via terminal:
+You can run the pipeline sequentially via terminal:
 ```bash
 python src/train_classical.py
 python src/train_cnn.py
