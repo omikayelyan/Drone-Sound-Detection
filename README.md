@@ -213,23 +213,3 @@ The project auto-generates deep visual analysis inside `results/figures/`, inclu
 This project successfully proves that Unmanned Aerial Vehicles can be detected reliably using solely acoustic signatures and Machine Learning. By building an end-to-end pipeline from raw `.wav` loading to a highly optimized Convolutional Neural Network, we achieved an F1-Score of over 95%, demonstrating a viable, cost-effective prototype for modern airspace security monitoring.
 
 ---
-
-## 15. Author
-
-**[Placeholder Your Name]**  
-*Machine Learning Enthusiast & Student*  
-- **GitHub:** [https://github.com/Placeholder-Username](https://github.com/Placeholder-Username)
-- **LinkedIn:** [https://linkedin.com/in/Placeholder-Profile](https://linkedin.com/in/Placeholder-Profile)
-
----
-
-## 16. License
-
-This project is open-source and available under the **MIT License**. You are free to copy, modify, and distribute the work. See the `LICENSE` file for more details.
-
----
-
-## 17. Acknowledgements
-
-- **Dataset Provider:** Deep thanks to the creators of the DADS dataset.
-- **Open Source Libraries:** Thank you to the maintainers of Librosa, Scikit-Learn, and TensorFlow for providing the fundamental blocks of this research.
