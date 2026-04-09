@@ -33,7 +33,7 @@ To build an end-to-end pipeline that takes raw audio, extracts meaningful acoust
   - `drone` (Class 1) — Drone rotor noise, propeller hum.
   - `non_drone` (Class 0) — Wind, traffic, birds, conversational noise.
 - **Data Format:** `.wav` files (uncompressed audio).
-- **Dataset Source:** [DADS Dataset on Kaggle/HuggingFace (Placeholder Link)](#)
+- **Dataset Source:** [DADS Dataset on HuggingFace](https://huggingface.co/datasets/geronimobasso/drone-audio-detection-samples)
 - **Assumptions/Limitations:** The models assume a relatively clean audio signal. Extremely high-noise environments (e.g., heavy storms) may reduce the CNN's accuracy without further data augmentation.
 
 ---
