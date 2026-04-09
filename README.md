@@ -187,7 +187,18 @@ The project auto-generates deep visual analysis inside `results/figures/`, inclu
 - **Feature Plots:** 40-track MFCC graphs revealing the hidden "texture" of the audio.
 - **Confusion Matrix:** 
 
-![Confusion Matrix Placeholder](https://via.placeholder.com/600x400.png?text=Confusion+Matrix+Heatmap+Placeholder)
+### Model Performance Comparison
+![Model Comparison](results/figures/model_comparison.png)
+
+### Confusion Matrices
+**Random Forest**
+![Random Forest Confusion Matrix](results/figures/confusion_matrix_random_forest.png)
+
+**CNN**
+![CNN Confusion Matrix](results/figures/confusion_matrix_cnn.png)
+
+### Model Training
+![CNN Training History](results/figures/cnn_training_history.png)
 
 ---
 
