@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Data and Models
+data/drone/
+data/non_drone/
+models/*.pkl
+models/*.h5
+models/*.keras
+
+# IDE / Jupyter
+.ipynb_checkpoints
+.vscode/
+.idea/
+.DS_Store
+
+# Results
+results/metrics.json
+results/cnn_metrics.json
+
+# You can choose to keep results/figures/ tracked so people can see them on Github!
